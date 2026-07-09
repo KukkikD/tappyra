@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Howard;Rob;;;
+FN:Rob Howard
+ORG:RNH Welding
+TITLE:Owner
+TEL;TYPE=CELL:+13608270840
+EMAIL;TYPE=WORK:rnhrob1@gmail.com
+ADR;TYPE=WORK:;;3732 Jackson Hwy;Chehalis;WA;98532;USA
+URL:https://rnhwelding.lovable.app/
+END:VCARD
