@@ -4,7 +4,7 @@ export default function RobProfile() {
     <main className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <section className="w-full max-w-md bg-white rounded-3xl shadow-lg overflow-hidden">
 
-      <div className="bg-gray-900 text-white text-center p-6 pt-5 pb-0">
+      <div className="bg-gray-900 text-white text-center p-6 pt-5 pb-8">
 
         <Image
           src="/rnh_logo.png"
@@ -22,15 +22,17 @@ export default function RobProfile() {
           Owner
         </p>
 
+        <div className="mt-3 mb-4 flex items-center justify-center">
           <Image
             src="/wabo_logo.png"
             alt="WABO Certified"
-            width={150}
-            height={90}
-            className="mx-auto mt-0"
+            width={180}
+            height={100}
+            className="h-auto w-36 object-contain"
           />
+        </div>
+      </div>
 
-</div>
         <div className="p-6">
 
           <a
