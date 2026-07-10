@@ -26,9 +26,9 @@ export default function RobProfile() {
           <Image
             src="/wabo_logo.png"
             alt="WABO Certified"
-            width={180}
-            height={100}
-            className="h-auto w-28 object-contain"
+            width={140}
+            height={80}
+            className="h-auto w-28 sm:36 object-contain"
           />
         </div>
       </div>
