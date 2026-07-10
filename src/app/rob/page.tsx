@@ -4,25 +4,33 @@ export default function RobProfile() {
     <main className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <section className="w-full max-w-md bg-white rounded-3xl shadow-lg overflow-hidden">
 
-        <div className="bg-gray-900 text-white text-center p-8">
+      <div className="bg-gray-900 text-white text-center p-6 pt-5 pb-0">
+
+        <Image
+          src="/rnh_logo.png"
+          alt="RNH Welding Logo"
+          width={160}
+          height={100}
+          className="mx-auto mb-3"
+        />
+
+        <h1 className="text-3xl font-bold">
+          Rob Howard
+        </h1>
+
+        <p className="mt-1 text-gray-300">
+          Owner
+        </p>
 
           <Image
-            src="/rnh_logo.png"
-            alt="RNH Welding Logo"
-            width={160}
-            height={100}
-            className="mx-auto mb-3"
+            src="/wabo_logo.png"
+            alt="WABO Certified"
+            width={150}
+            height={90}
+            className="mx-auto mt-0"
           />
 
-          <h1 className="text-3xl font-bold">
-            Rob Howard
-          </h1>
-
-          <p className="mt-2 text-gray-300">
-            Owner
-          </p>
-        </div>
-
+</div>
         <div className="p-6">
 
           <a
